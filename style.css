@@ -48,8 +48,9 @@ h1 {
 .result {
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
+    color: purple
 }
 .control {
     display: flex;
