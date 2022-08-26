@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');body {
+    box-sizing: border-box;
+    background-color: #F6D74F;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+    margin: 50px;
+}
+
+.display {
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+.cell {
+    display: grid;
+    background-color: rgb(162, 206, 221);
+    border: 5px solid white;
+    text-align: center;
+    align-content: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 90px;
+    
+}
+
+.cell:hover {
+    background-color: rgb(142, 191, 208);
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.control {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#reset {
+    background-color: purple;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: white;
+}
