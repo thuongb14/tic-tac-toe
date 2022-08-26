@@ -73,6 +73,7 @@ let gameModule = (() => {
         gameBoard = ['', '', '', '', '', '','', '', '',];
         isGameActive = true;
         currentPlayer = 'X';
+        playerDisplay.textContent = currentPlayer;
         displayResult.textContent = ''
         cell.forEach((box) => {
             box.textContent = '';
